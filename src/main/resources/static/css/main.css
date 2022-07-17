@@ -1,0 +1,76 @@
+.horizontal{
+	display: flex;
+}
+.welcome{
+	width: 900px;
+	display:flex;
+	justify-content: space-between;
+}
+button{
+    border-radius: 15px;
+    margin-right: 7px;
+    padding: 2px 6px;
+    border: 1px solid white;
+    background-color: rgb(29, 81, 81);
+    box-shadow: 2px 2px black;
+}
+button:hover, #delete:hover, #submit:hover{
+	font-size: 18px;
+}
+button:hover{
+	background-color: goldenrod;
+}
+#submit:hover{
+	background-color: forestgreen;
+}
+#delete:hover{
+	background-color: red;
+}
+#delete{
+	border-radius: 15px;
+    padding: 2px 6px;
+    border: 1px solid black;
+    background-color: grey;
+    text-align: center;
+    color: white;
+}
+#submit{
+	margin-bottom: 10px;
+	margin-right: 10px;
+	background-color: forestgreen;
+	text-align: center;
+}
+body{
+	color: floralwhite;
+	background-color: rgb(10, 10, 48);
+    width: 900px;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.mainBox{
+	width: 900px;
+	padding: 5px;
+}
+#table{
+	color: floralwhite;
+	background-color: rgb(54, 26, 6);
+	border: 1px solid black;
+}
+#table th{
+	color: goldenrod;
+}
+#table tr:hover{
+	color: greenyellow;
+}
+.headBox{
+	width: 900px;
+	display:flex;
+	justify-content: center;
+}

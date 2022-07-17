@@ -1,0 +1,37 @@
+.container{
+	background-color: rgb(54, 26, 6);
+}
+.formContainer{
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+    flex-direction: column;
+}
+.toTheRight{
+	display: flex;
+	justify-content: right;
+}
+.headBoxView, .headBodyView{
+	width: 900px;
+	padding: 10px;
+	text-overflow: wrap;
+	margin-top: 5px;
+}
+.headBoxView{
+	display:flex;
+	justify-content: space-between;
+	color: goldenrod;
+	font-size: 30px;
+}
+.headBodyView{
+background-color: rgb(54, 26, 6);
+}
+a{
+	text-decoration: none;
+	color: lightcoral;
+	font-size: 22px;
+}
+a:hover{
+	color: goldenrod;
+}
+
